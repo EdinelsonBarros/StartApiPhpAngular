@@ -15,11 +15,10 @@ export class CursoService {
 
   //Obter todos os cursos
   obterCursos():Observable<Curso[]>{
-    return this.http.get<Curso[]>(this.url+"listar").pipe(
-      
-    );
+    return this.http.get<Curso[]>(this.url+"listar");
   }
 
+  
   //Método para cadastrar curso
   // cadastrarCurso(c:Curso): Observable<Curso[]>{
   //   return this.http.post(this.url+"cadastrar", {cursos:c})

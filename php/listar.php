@@ -24,7 +24,5 @@ while($linha = mysqli_fetch_assoc($executar)){
       $indice++;
 }
 
-//JSON
 echo json_encode(['cursos'=>$cursos]);
-// var_dump($cursos);
 ?>

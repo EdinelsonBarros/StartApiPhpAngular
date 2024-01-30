@@ -52,9 +52,7 @@ export class CursosComponent implements OnInit {
     )
   }
 
-  mostrar(){
-    console.log(this.cursoService.obterCursos())
-  }
+ 
 
   alterar():void{
     alert("Alterar");
