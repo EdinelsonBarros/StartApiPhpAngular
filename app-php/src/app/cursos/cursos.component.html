@@ -1,0 +1,13 @@
+<table>
+      <thead>
+            <th>Nome do curso</th>
+            <th>Valor do curso</th>
+      </thead>
+      <tbody>
+            <tr *ngFor="let v of vetor">
+                  <td>{{ v.nomeCurso }}</td>
+                  <td>{{ v.valorCurso }}</td>
+            </tr>
+      </tbody>
+</table>
+<button (click)="mostrar()">Mostrar</button>
